@@ -1,0 +1,41 @@
+{
+  "scss.validate": false,
+  "css.validate": false,
+  "less.validate": false,
+
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/build": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true,
+    "**/.eslintrc.js": true
+  },
+
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+
+  "typescript.preferences.importModuleSpecifier": "shortest",
+
+  "eslint.lintTask.enable": true,
+
+  "breadcrumbs.enabled": true,
+
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+
+  "npm.packageManager": "yarn",
+
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+
+  "stylelint.packageManager": "yarn",
+  "jest.jestCommandLine": "yarn test:unit",
+  "jest.rootPath": "apps/web"
+}
